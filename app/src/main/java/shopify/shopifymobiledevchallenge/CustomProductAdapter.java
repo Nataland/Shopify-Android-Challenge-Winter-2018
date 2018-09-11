@@ -57,8 +57,7 @@ public class CustomProductAdapter extends RecyclerView.Adapter<CustomProductAdap
     @Override
     public void onBindViewHolder(final CustomViewHolder holder, final int position) {
         holder.txtTitle.setText(dataList.get(position).getTitle());
-        holder.quantityView.setText("Quantity: " + getTotalQuantity(dataList.get(position).getVariants()));
-
+        holder.quantityView.setText(String.format(context.getString(R.string.quantity), getTotalQuantity(dataList.get(position))));
 
         Thread thread = new Thread(new Runnable() {
 
@@ -83,9 +82,10 @@ public class CustomProductAdapter extends RecyclerView.Adapter<CustomProductAdap
         return dataList.size();
     }
 
-    private Long getTotalQuantity(List<Variant> variants) {
+    // Method to get the total quantity of all variants of a product
+    private Long getTotalQuantity(Product product) {
         Long total = 0L;
-        for (Variant variant : variants) {
+        for (Variant variant : product.getVariants()) {
             total += variant.getInventory_quantity();
         }
         return total;

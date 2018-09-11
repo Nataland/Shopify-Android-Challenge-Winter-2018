@@ -62,6 +62,8 @@ public class TagsListPageActivity extends AppCompatActivity {
             // For every product, get the list of tags that it has, separated by a comma and a space
             List<String> tagsList = new ArrayList<>(Arrays.asList(product.getTags().split(", ")));
 
+            // For every tag that a product has, if the tag is not created already, create the tag and add the product to the product list of the tag
+            // If the tag is created, just add the product to the product list of the tag
             for (String tag : tagsList) {
                 int exist = getTagExists(tag, tags);
                 if (exist != -1) {

@@ -17,7 +17,6 @@ import java.util.List;
  */
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomViewHolder> {
-
     private List<Tag> dataList;
     private Context context;
 

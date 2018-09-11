@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Shopify Mobile Dev Challenge</string>
+    <string name="quantity">Quantity: %d</string>
 </resources>

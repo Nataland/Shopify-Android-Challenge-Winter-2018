@@ -19,8 +19,4 @@ public class Image implements Serializable {
     public String getSrc() {
         return src;
     }
-
-    public void setSrc(String src) {
-        this.src = src;
-    }
 }

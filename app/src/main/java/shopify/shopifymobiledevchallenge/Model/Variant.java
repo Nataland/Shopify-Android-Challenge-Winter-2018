@@ -1,4 +1,4 @@
-package shopify.shopifymobiledevchallenge;
+package shopify.shopifymobiledevchallenge.Model;
 
 import com.google.gson.annotations.SerializedName;
 

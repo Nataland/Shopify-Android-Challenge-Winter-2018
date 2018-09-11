@@ -1,7 +1,8 @@
-package shopify.shopifymobiledevchallenge;
+package shopify.shopifymobiledevchallenge.Network;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
+import shopify.shopifymobiledevchallenge.Model.ProductPage;
 
 /**
  * Created by natalie on 2018-09-10.

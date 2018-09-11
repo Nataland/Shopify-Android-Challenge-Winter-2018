@@ -1,4 +1,4 @@
-package shopify.shopifymobiledevchallenge;
+package shopify.shopifymobiledevchallenge.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,10 @@ import android.widget.TextView;
 
 import java.io.Serializable;
 import java.util.List;
+
+import shopify.shopifymobiledevchallenge.Activity.ProductsListPageActivity;
+import shopify.shopifymobiledevchallenge.R;
+import shopify.shopifymobiledevchallenge.Model.Tag;
 
 /**
  * Created by natalie on 2018-09-10.

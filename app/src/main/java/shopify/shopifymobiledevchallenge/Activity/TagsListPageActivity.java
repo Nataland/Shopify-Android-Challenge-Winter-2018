@@ -1,4 +1,4 @@
-package shopify.shopifymobiledevchallenge;
+package shopify.shopifymobiledevchallenge.Activity;
 
 import android.app.ProgressDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +17,13 @@ import java.util.Collections;
 import java.util.List;
 
 import retrofit2.Response;
+import shopify.shopifymobiledevchallenge.Adapter.CustomAdapter;
+import shopify.shopifymobiledevchallenge.Model.Product;
+import shopify.shopifymobiledevchallenge.Model.ProductPage;
+import shopify.shopifymobiledevchallenge.Model.Tag;
+import shopify.shopifymobiledevchallenge.Network.GetDataService;
+import shopify.shopifymobiledevchallenge.Network.RetrofitClientInstance;
+import shopify.shopifymobiledevchallenge.R;
 
 public class TagsListPageActivity extends AppCompatActivity {
     private CustomAdapter adapter;

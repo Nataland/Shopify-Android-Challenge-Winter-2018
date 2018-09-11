@@ -1,4 +1,4 @@
-package shopify.shopifymobiledevchallenge;
+package shopify.shopifymobiledevchallenge.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 
 import java.util.List;
+
+import shopify.shopifymobiledevchallenge.Adapter.CustomProductAdapter;
+import shopify.shopifymobiledevchallenge.Model.Product;
+import shopify.shopifymobiledevchallenge.R;
 
 /**
  * Created by natalie on 2018-09-10.

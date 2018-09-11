@@ -1,4 +1,4 @@
-package shopify.shopifymobiledevchallenge;
+package shopify.shopifymobiledevchallenge.Adapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,6 +13,10 @@ import android.widget.TextView;
 
 import java.net.URL;
 import java.util.List;
+
+import shopify.shopifymobiledevchallenge.Model.Product;
+import shopify.shopifymobiledevchallenge.R;
+import shopify.shopifymobiledevchallenge.Model.Variant;
 
 /**
  * Created by natalie on 2018-09-10.

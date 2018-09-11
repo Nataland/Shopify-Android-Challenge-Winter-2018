@@ -1,9 +1,11 @@
-package shopify.shopifymobiledevchallenge;
+package shopify.shopifymobiledevchallenge.Model;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 import java.util.List;
+
+import shopify.shopifymobiledevchallenge.Model.Product;
 
 /**
  * Created by natalie on 2018-09-10.
